@@ -1,10 +1,10 @@
 <?php require_once("cabecalho.php");
-      
+
       require_once"banco-produto.php");
       require_once("logica-usuario.php");
 
 verificaUsuario();
-
+#teste
 $nome = $_POST["nome"];
 $preco = $_POST["preco"];
 $descricao = $_POST["descricao"];
